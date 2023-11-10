@@ -1,0 +1,70 @@
+@page "/ticTacToe"
+@using MaxsGameCorner.Components
+@inject MaxsGameCorner.Shared.TicGameState State
+
+@if (!string.IsNullOrWhiteSpace(winnerMessage))
+{
+    <div class="winner">
+        <span>@winnerMessage</span>
+    </div>
+}
+
+
+<div class="board-row">
+    <Square sqareValue=@values[0] OnClickCallback='() => HandleClick(0)' />
+    <Square sqareValue=@values[1] OnClickCallback='() => HandleClick(1)' />
+    <Square sqareValue=@values[2] OnClickCallback='() => HandleClick(2)' />
+</div>
+<div class="board-row">
+    <Square sqareValue=@values[3] OnClickCallback='() => HandleClick(3)' />
+    <Square sqareValue=@values[4] OnClickCallback='() => HandleClick(4)' />
+    <Square sqareValue=@values[5] OnClickCallback='() => HandleClick(5)' />
+</div>
+<div class="board-row">
+    <Square sqareValue=@values[6] OnClickCallback='() => HandleClick(6)' />
+    <Square sqareValue=@values[7] OnClickCallback='() => HandleClick(7)' />
+    <Square sqareValue=@values[8] OnClickCallback='() => HandleClick(8)' />
+</div>
+
+@code {
+
+    public bool isXNext = true;
+
+    public string winner = "";
+
+    public string winnerMessage = "";
+
+
+    public string[] values = new string[9] { "", "", "", "", "", "", "", "", "" };
+    private void HandleClick(int index)
+    {
+        if (!string.IsNullOrWhiteSpace(State.CalculateWinner(values)) || !string.IsNullOrWhiteSpace(values[index]))
+        {
+            return;
+        }
+        if (isXNext)
+        {
+            values[index] = "X";
+        }
+        else
+        {
+            values[index] = "O";
+        }
+        isXNext = !isXNext;
+
+        checkForWinner();
+    }
+
+    private void checkForWinner()
+    {
+        winner = State.CalculateWinner(values);
+        if (!string.IsNullOrEmpty(winner))
+        {
+            winnerMessage = "Winner: " + winner;
+        }
+        else
+        {
+            winnerMessage = "Next player: " + (isXNext ? "X" : "O");
+        }
+    }
+}

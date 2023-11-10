@@ -1,0 +1,9 @@
+<button class="square" @onclick='OnClickCallback'>@sqareValue</button>
+
+@code {
+    [Parameter]
+    public string sqareValue { get; set; } = "";
+    [Parameter]
+    public EventCallback OnClickCallback { get; set; }
+
+}
