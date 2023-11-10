@@ -103,3 +103,20 @@ body[b-u0k9orfq9k] {
 .game-info[b-u0k9orfq9k] {
   margin-left: 20px;
 }
+
+.rules[b-u0k9orfq9k] {
+  padding-left: 0px;
+  margin-right: 200px;
+  text-align: left;
+  column-count: 1;
+}
+
+/* Heading */
+.howToPlay[b-u0k9orfq9k] {
+  padding-top: 50px;
+}
+
+/* Heading */
+.ticTacToe[b-u0k9orfq9k] {
+  padding-bottom: 25px;
+}

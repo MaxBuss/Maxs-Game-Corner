@@ -1,0 +1,12 @@
+.games[b-0nq4aw7fj7] {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  grid-gap: 2rem;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.game-img[b-0nq4aw7fj7] {
+  height: 225px;
+  width: 225px;
+}

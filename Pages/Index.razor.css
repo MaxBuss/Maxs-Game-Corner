@@ -1,0 +1,12 @@
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  grid-gap: 2rem;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.game-img {
+  height: 225px;
+  width: 225px;
+}

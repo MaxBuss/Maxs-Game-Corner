@@ -2,11 +2,18 @@
 @using MaxsGameCorner.Components
 @inject MaxsGameCorner.Shared.TicGameState State
 
+<h1 class='ticTacToe'>Tic Tac Toe</h1>
+
 @if (!string.IsNullOrWhiteSpace(winnerMessage))
 {
     <div class="winner">
         <span>@winnerMessage</span>
     </div>
+}
+
+@if (!string.IsNullOrWhiteSpace(winner) || clickedBoxes == 9)
+{
+    <button class='reset-game' @onclick='ResetGame'>Reset Game</button>
 }
 
 
@@ -26,6 +33,26 @@
     <Square sqareValue=@values[8] OnClickCallback='() => HandleClick(8)' />
 </div>
 
+<div class='rules'>
+
+    <h2 class='howToPlay'>How To Play</h2>
+    <ul>
+        <li>
+            <p>The game is played on a grid that's 3 squares by 3 squares. </p>
+        </li>
+        <li>
+            <p>You are X , your friend is O . Players take turns putting their marks in empty squares.</p>
+        </li>
+        <li>
+            <p>The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</p>
+        </li>
+        <li>
+            <p>When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+            </p>
+        </li>
+    </ul>
+</div>
+
 @code {
 
     public bool isXNext = true;
@@ -33,6 +60,8 @@
     public string winner = "";
 
     public string winnerMessage = "";
+
+    public int clickedBoxes = 0;
 
 
     public string[] values = new string[9] { "", "", "", "", "", "", "", "", "" };
@@ -64,7 +93,32 @@
         }
         else
         {
-            winnerMessage = "Next player: " + (isXNext ? "X" : "O");
+            clickedBoxes = 0;
+            foreach (var value in values)
+            {
+                if (!string.IsNullOrWhiteSpace(value))
+                {
+                    clickedBoxes++;
+                }
+            }
+            if (clickedBoxes == 9)
+            {
+                winnerMessage = "It's a tie!";
+            }
+            else
+            {
+                winnerMessage = "Next player: " + (isXNext ? "X" : "O");
+            }
+
         }
+    }
+
+    private void ResetGame()
+    {
+        isXNext = true;
+        winner = "";
+        winnerMessage = "";
+        clickedBoxes = 0;
+        values = new string[9] { "", "", "", "", "", "", "", "", "" };
     }
 }

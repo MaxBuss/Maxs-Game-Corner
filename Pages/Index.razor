@@ -1,4 +1,21 @@
 ﻿@page "/"
 
 <h1>Welcome to Max's Game Corner!</h1>
-<p>Please select a game on the left side to begin playing.</p>
+<p>Please select a game on the left side or down below to begin playing.</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <NavLink class="nav-link" href="connectFour">
+                <h3>Connect Four</h3>
+                <img class="game-img" src="img/games/connect4.jpg" />
+            </NavLink>
+        </div>
+        <div class="col-4">
+            <NavLink class="nav-link" href="ticTacToe">
+                <h3>Tic Tac Toe</h3>
+                <img class="game-img" src="img/games/tictactoe.png" />
+            </NavLink>
+        </div>
+    </div>
+</div>

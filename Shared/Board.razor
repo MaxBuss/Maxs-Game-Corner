@@ -12,6 +12,8 @@
     </style>
 </HeadContent>
 
+<h1 class='connectFour'>Connect Four</h1>
+
 <nav>
     <span title="Click to play a piece" @onclick="() => PlayPiece(0)">🔽</span>
     <span title="Click to play a piece" @onclick="() => PlayPiece(1)">🔽</span>
@@ -42,6 +44,35 @@
             <span class="@Pieces[i]"></span>
         }
     </div>
+</div>
+
+<div class='rules'>
+
+    <h2 class='howToPlay'>How To Play</h2>
+    <ul>
+        <li>
+            <p>Connect Four is a 2-player game. Players alternate taking turns. Each side of the Connect Four board has
+                its
+                own
+                color of checkers. There is one color for each player. </p>
+        </li>
+        <li>
+            <p>The goal of Connect Four is to get 4 of your color checkers in a row—horizontally, vertically, or
+                diagonally—before your opponent does! </p>
+        </li>
+        <li>
+            <p>When it is your turn, click 1 of the arrows at the top of the Connect Four board.
+                This
+                allows you to either build your row or stop your opponent from getting 4 in a row. After you drop your
+                checker,
+                it’s your opponent’s turn. </p>
+        </li>
+        <li>
+            <p>The game is over when one player gets 4 checkers in a row, or when all slots are filled, meaning the game
+                ends in
+                a stalemate. </p>
+        </li>
+    </ul>
 </div>
 
 @code {

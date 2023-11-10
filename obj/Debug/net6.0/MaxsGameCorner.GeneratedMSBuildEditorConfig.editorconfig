@@ -30,10 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Learning-Enviroment/Blazor/MaxsGameCorner/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Learning-Enviroment/Blazor/MaxsGameCorner/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Learning-Enviroment/Blazor/MaxsGameCorner/Components/Square.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTcXVhcmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vhzpensgiq
+
+[C:/Learning-Enviroment/Blazor/MaxsGameCorner/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0nq4aw7fj7
 
 [C:/Learning-Enviroment/Blazor/MaxsGameCorner/Shared/Board.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJvYXJkLnJhem9y

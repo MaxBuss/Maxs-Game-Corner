@@ -13,6 +13,19 @@
   text-align: center;
   width: 34px;
 }
+/* _content/MaxsGameCorner/Pages/Index.razor.rz.scp.css */
+.games[b-0nq4aw7fj7] {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  grid-gap: 2rem;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.game-img[b-0nq4aw7fj7] {
+  height: 225px;
+  width: 225px;
+}
 /* _content/MaxsGameCorner/Shared/Board.razor.rz.scp.css */
 div[b-5wser8ufa8] {
   position: relative;
@@ -244,6 +257,23 @@ span.container[b-5wser8ufa8] {
   99% {
     transform: translateY(20.4em);
   }
+}
+
+.rules p[b-5wser8ufa8] {
+  padding-left: 0px;
+  margin-right: 200px;
+  text-align: left;
+  column-count: 1;
+}
+
+/* Heading */
+.howToPlay[b-5wser8ufa8] {
+  padding-top: 50px;
+}
+
+/* Heading */
+.connectFour[b-5wser8ufa8] {
+  padding-bottom: 25px;
 }
 /* _content/MaxsGameCorner/Shared/MainLayout.razor.rz.scp.css */
 .page[b-5bq5szjd7e] {
@@ -484,4 +514,21 @@ body[b-u0k9orfq9k] {
 
 .game-info[b-u0k9orfq9k] {
   margin-left: 20px;
+}
+
+.rules[b-u0k9orfq9k] {
+  padding-left: 0px;
+  margin-right: 200px;
+  text-align: left;
+  column-count: 1;
+}
+
+/* Heading */
+.howToPlay[b-u0k9orfq9k] {
+  padding-top: 50px;
+}
+
+/* Heading */
+.ticTacToe[b-u0k9orfq9k] {
+  padding-bottom: 25px;
 }

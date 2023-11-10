@@ -229,3 +229,20 @@ span.container[b-5wser8ufa8] {
     transform: translateY(20.4em);
   }
 }
+
+.rules p[b-5wser8ufa8] {
+  padding-left: 0px;
+  margin-right: 200px;
+  text-align: left;
+  column-count: 1;
+}
+
+/* Heading */
+.howToPlay[b-5wser8ufa8] {
+  padding-top: 50px;
+}
+
+/* Heading */
+.connectFour[b-5wser8ufa8] {
+  padding-bottom: 25px;
+}

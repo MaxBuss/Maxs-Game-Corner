@@ -229,3 +229,20 @@ span.container {
     transform: translateY(20.4em);
   }
 }
+
+.rules p {
+  padding-left: 0px;
+  margin-right: 200px;
+  text-align: left;
+  column-count: 1;
+}
+
+/* Heading */
+.howToPlay {
+  padding-top: 50px;
+}
+
+/* Heading */
+.connectFour {
+  padding-bottom: 25px;
+}
