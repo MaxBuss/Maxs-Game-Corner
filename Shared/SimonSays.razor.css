@@ -1,0 +1,39 @@
+.controls {
+  margin-top: 1rem;
+}
+
+.controls button {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.simon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.simon.red {
+  background-color: darkred;
+}
+.simon.green {
+  background-color: darkgreen;
+}
+.simon.blue {
+  background-color: darkblue;
+}
+.simon.yellow {
+  background-color: darkgoldenrod;
+}
+
+.simon.red.lit {
+  background-color: lightcoral;
+}
+.simon.green.lit {
+  background-color: lightgreen;
+}
+.simon.blue.lit {
+  background-color: lightblue;
+}
+.simon.yellow.lit {
+  background-color: lightgoldenrodyellow;
+}

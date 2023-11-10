@@ -58,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope = b-5bq5szjd7e
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-szhelb2ckz
 
+[C:/Learning-Enviroment/Blazor/MaxsGameCorner/Shared/SimonSays.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpbW9uU2F5cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wcai7fd10d
+
 [C:/Learning-Enviroment/Blazor/MaxsGameCorner/Shared/TicTacToe.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRpY1RhY1RvZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-u0k9orfq9k

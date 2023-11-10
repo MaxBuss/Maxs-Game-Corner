@@ -1,0 +1,98 @@
+@page "/simonSays"
+
+<div class='simom-says'>
+    <button class='btn btn-primary' @onclick='StartGame'>Start Game</button>
+    <div class='high-score'>High Score: @highScore</div>
+    <div class='high-score'>Current Score: @score</div>
+    <div class='simon-says__game'>
+        @foreach (var color in colors)
+        {
+            <button class="btn simon @color  @(IsLit[colors.IndexOf(color)] ? "lit" : "")"
+                @onclick="() => { TryPress(color); }" disabled='@gameOver'></button>
+        }
+    </div>
+    @if (gameOver)
+    {
+        <div class='game-over'>Game Over, click Start Game to start again.</div>
+    }
+</div>
+
+@code {
+
+    Random random = new Random();
+    private List<string> colors = new List<string> { "red", "blue", "green", "yellow" };
+    private bool[] IsLit = new bool[4];
+
+    private string[] simonSays = new string[4];
+
+    private int highScore = 0;
+
+    private int index = 0;
+
+    private int score = 0;
+
+    private bool gameOver = false;
+
+    private void StartGame()
+    {
+        index = 0;
+        gameOver = false;
+        IsLit[0] = false;
+        IsLit[1] = false;
+        IsLit[2] = false;
+        IsLit[3] = false;
+        for (int i = 0; i < simonSays.Length; i++)
+        {
+            simonSays[i] = colors[random.Next(0, 4)];
+        }
+        PlaySimonPattern();
+    }
+
+    private async void PlaySimonPattern()
+    {
+        foreach (var color in simonSays)
+        {
+            IsLit[colors.IndexOf(color)] = true;
+            StateHasChanged();
+            await Task.Delay(500);
+            IsLit[colors.IndexOf(color)] = false;
+            StateHasChanged();
+            await Task.Delay(100);
+
+        }
+    }
+
+    private async void TryPress(string color)
+    {
+        IsLit[colors.IndexOf(color)] = true;
+        StateHasChanged();
+        await Task.Delay(250);
+        IsLit[colors.IndexOf(color)] = false;
+        StateHasChanged();
+        if (simonSays[index] == color)
+        {
+            score++;
+            if (score > highScore)
+            {
+                highScore = score;
+            }
+            index++;
+            StateHasChanged();
+            if (index == 4)
+            {
+                await Task.Delay(250);
+                StartGame();
+            }
+        }
+        else
+        {
+            score = 0;
+            gameOver = true;
+            index = 0;
+            StateHasChanged();
+        }
+
+
+
+    }
+}

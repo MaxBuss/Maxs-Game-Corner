@@ -34,3 +34,4 @@ C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\scopedcss\Shared\T
 C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\scopedcss\Components\Square.razor.rz.scp.css
 C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\MaxsGameCorner.sourcelink.json
 C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\scopedcss\Shared\SimonSays.razor.rz.scp.css

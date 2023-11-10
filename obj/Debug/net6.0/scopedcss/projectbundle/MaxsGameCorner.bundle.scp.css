@@ -411,6 +411,46 @@ main[b-5bq5szjd7e] {
         display: block;
     }
 }
+/* _content/MaxsGameCorner/Shared/SimonSays.razor.rz.scp.css */
+.controls[b-wcai7fd10d] {
+  margin-top: 1rem;
+}
+
+.controls button[b-wcai7fd10d] {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.simon[b-wcai7fd10d] {
+  width: 4rem;
+  height: 4rem;
+}
+
+.simon.red[b-wcai7fd10d] {
+  background-color: darkred;
+}
+.simon.green[b-wcai7fd10d] {
+  background-color: darkgreen;
+}
+.simon.blue[b-wcai7fd10d] {
+  background-color: darkblue;
+}
+.simon.yellow[b-wcai7fd10d] {
+  background-color: darkgoldenrod;
+}
+
+.simon.red.lit[b-wcai7fd10d] {
+  background-color: lightcoral;
+}
+.simon.green.lit[b-wcai7fd10d] {
+  background-color: lightgreen;
+}
+.simon.blue.lit[b-wcai7fd10d] {
+  background-color: lightblue;
+}
+.simon.yellow.lit[b-wcai7fd10d] {
+  background-color: lightgoldenrodyellow;
+}
 /* _content/MaxsGameCorner/Shared/TicTacToe.razor.rz.scp.css */
 *[b-u0k9orfq9k] {
   box-sizing: border-box;
