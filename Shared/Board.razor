@@ -1,6 +1,7 @@
 @page "/connectFour"
 @inject MaxsGameCorner.Shared.GameState State
 @using System.Drawing
+@inject IJSRuntime JSRuntime
 
 <HeadContent>
     <style>
@@ -87,7 +88,7 @@
 
     private string ResetStyle => (WinnerMessage == string.Empty) ? "display: none;" : "";
 
-    private void PlayPiece(byte col)
+    private async void PlayPiece(byte col)
     {
         ErrorMessage = string.Empty;
 
@@ -96,6 +97,14 @@
             var landingRow = State.PlayPiece(col);
             var cssClass = $"player{State.PlayerTurn} col{col} drop{landingRow}";
             Pieces[State.CurrentTurn - 1] = cssClass;
+            if (State.PlayerTurn == 1)
+            {
+                await PlaySound("sounds/click.mp3");
+            }
+            else
+            {
+                await PlaySound("sounds/clonk.mp3");
+            }
         }
         catch (ArgumentException ex)
         {
@@ -108,6 +117,20 @@
             GameState.WinState.Tie => "It's a tie!",
             _ => ""
         };
+        if (WinnerMessage == "Player 1 Wins!")
+        {
+            await PlaySound("sounds/win.wav");
+        }
+        else if (WinnerMessage == "Player 2 Wins!")
+        {
+            await PlaySound("sounds/lose.wav");
+        }
+    }
+
+    private async Task PlaySound(string location)
+    {
+        await JSRuntime.InvokeVoidAsync("playAudio", location);
+        StateHasChanged();
     }
 
     [Parameter()]

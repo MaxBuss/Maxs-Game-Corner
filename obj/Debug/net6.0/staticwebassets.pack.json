@@ -361,12 +361,36 @@
       "PackagePath": "staticwebassets\\img\\icons\\ticIcon.png"
     },
     {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\blue.mp3",
+      "PackagePath": "staticwebassets\\sounds\\blue.mp3"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\click.mp3",
+      "PackagePath": "staticwebassets\\sounds\\click.mp3"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\clonk.mp3",
+      "PackagePath": "staticwebassets\\sounds\\clonk.mp3"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\green.mp3",
+      "PackagePath": "staticwebassets\\sounds\\green.mp3"
+    },
+    {
       "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\lose.wav",
       "PackagePath": "staticwebassets\\sounds\\lose.wav"
     },
     {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\red.mp3",
+      "PackagePath": "staticwebassets\\sounds\\red.mp3"
+    },
+    {
       "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\win.wav",
       "PackagePath": "staticwebassets\\sounds\\win.wav"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\yellow.mp3",
+      "PackagePath": "staticwebassets\\sounds\\yellow.mp3"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MaxsGameCorner.Microsoft.AspNetCore.StaticWebAssets.props",
