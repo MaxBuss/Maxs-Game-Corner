@@ -10,6 +10,11 @@
 .simon[b-wcai7fd10d] {
   width: 4rem;
   height: 4rem;
+  margin-right: 10px;
+}
+
+.rules[b-wcai7fd10d] {
+  padding-top: 30px;
 }
 
 .simon.red[b-wcai7fd10d] {

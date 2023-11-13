@@ -61,8 +61,24 @@
       "PackagePath": "staticwebassets\\img\\games\\connect4.jpg"
     },
     {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\games\\simonSays.png",
+      "PackagePath": "staticwebassets\\img\\games\\simonSays.png"
+    },
+    {
       "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\games\\tictactoe.png",
       "PackagePath": "staticwebassets\\img\\games\\tictactoe.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\icons\\connectFourIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\icons\\connectFourIcon.jpg"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\icons\\simonIcon.png",
+      "PackagePath": "staticwebassets\\img\\icons\\simonIcon.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\icons\\ticIcon.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ticIcon.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MaxsGameCorner.Microsoft.AspNetCore.StaticWebAssets.props",

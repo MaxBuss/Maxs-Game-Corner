@@ -10,6 +10,11 @@
 .simon {
   width: 4rem;
   height: 4rem;
+  margin-right: 10px;
+}
+
+.rules {
+  padding-top: 30px;
 }
 
 .simon.red {
