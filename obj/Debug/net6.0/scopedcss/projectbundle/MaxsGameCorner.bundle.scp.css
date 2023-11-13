@@ -26,6 +26,43 @@
   height: 225px;
   width: 225px;
 }
+/* _content/MaxsGameCorner/Shared/BlackJack.razor.rz.scp.css */
+.single-card[b-cqks5l6hls] {
+  width: 80px !important;
+}
+/* Image */
+.page .card img[b-cqks5l6hls] {
+  padding-left: 20px;
+  position: relative;
+  top: -41px;
+  left: 136px;
+}
+
+/* Card body */
+.page .card .card-body[b-cqks5l6hls] {
+  padding-bottom: 0px;
+  margin-bottom: -34px;
+}
+
+.page main .content h1[b-cqks5l6hls] {
+  padding-bottom: 90px;
+}
+
+.win-lose[b-cqks5l6hls] {
+  color: red;
+}
+
+.rules[b-cqks5l6hls] {
+  padding-left: 0px;
+  margin-right: 200px;
+  text-align: left;
+  column-count: 1;
+}
+
+/* Heading */
+.howToPlay[b-cqks5l6hls] {
+  padding-top: 50px;
+}
 /* _content/MaxsGameCorner/Shared/Board.razor.rz.scp.css */
 div[b-5wser8ufa8] {
   position: relative;

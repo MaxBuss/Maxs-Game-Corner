@@ -57,6 +57,278 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ace_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ace_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ace_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ace_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ace_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ace_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ace_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ace_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Eight_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Eight_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Eight_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Eight_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Eight_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Eight_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Eight_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Eight_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Five_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Five_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Five_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Five_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Five_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Five_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Five_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Five_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Four_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Four_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Four_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Four_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Four_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Four_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Four_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Four_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Jack_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Jack_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Jack_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Jack_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Jack_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Jack_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Jack_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Jack_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Jack_of_spades2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Jack_of_spades2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\King_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\King_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\King_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\King_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\King_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\King_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\King_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\King_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Nine_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Nine_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Nine_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Nine_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Nine_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Nine_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Nine_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Nine_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Queen_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Queen_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Queen_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Queen_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Queen_of_diamonds2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Queen_of_diamonds2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Queen_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Queen_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Queen_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Queen_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Seven_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Seven_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Seven_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Seven_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Seven_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Seven_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Seven_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Seven_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Six_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Six_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Six_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Six_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Six_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Six_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Six_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Six_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ten_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ten_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ten_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ten_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ten_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ten_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Ten_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Ten_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Three_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Three_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Three_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Three_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Three_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Three_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Three_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Three_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Two_of_clubs.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Two_of_clubs.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Two_of_diamonds.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Two_of_diamonds.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Two_of_hearts.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Two_of_hearts.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\Two_of_spades.png",
+      "PackagePath": "staticwebassets\\img\\deck\\Two_of_spades.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\ace_of_spades2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\ace_of_spades2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\black_joker.png",
+      "PackagePath": "staticwebassets\\img\\deck\\black_joker.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\jack_of_clubs2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\jack_of_clubs2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\jack_of_diamonds2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\jack_of_diamonds2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\jack_of_hearts2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\jack_of_hearts2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\king_of_clubs2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\king_of_clubs2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\king_of_diamonds2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\king_of_diamonds2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\king_of_hearts2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\king_of_hearts2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\king_of_spades2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\king_of_spades2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\queen_of_clubs2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\queen_of_clubs2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\queen_of_hearts2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\queen_of_hearts2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\queen_of_spades2.png",
+      "PackagePath": "staticwebassets\\img\\deck\\queen_of_spades2.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\deck\\red_joker.png",
+      "PackagePath": "staticwebassets\\img\\deck\\red_joker.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\games\\blackJack.jpg",
+      "PackagePath": "staticwebassets\\img\\games\\blackJack.jpg"
+    },
+    {
       "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\games\\connect4.jpg",
       "PackagePath": "staticwebassets\\img\\games\\connect4.jpg"
     },
@@ -67,6 +339,10 @@
     {
       "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\games\\tictactoe.png",
       "PackagePath": "staticwebassets\\img\\games\\tictactoe.png"
+    },
+    {
+      "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\icons\\blackJackIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\icons\\blackJackIcon.jpg"
     },
     {
       "Id": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\img\\icons\\connectFourIcon.jpg",
