@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaxsGameCorner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d57e09e5f70a7b41e233b334c243b206ffe93a31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0f8375613c21be80b65b86827d980767fde21ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaxsGameCorner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaxsGameCorner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

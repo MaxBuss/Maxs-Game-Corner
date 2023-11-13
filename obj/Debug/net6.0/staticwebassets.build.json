@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q6drSDVDXhHNw6fHVQh152CW9ZFG8qENEH+P+i5srGc=",
+  "Hash": "2WEkPsy2xc7UD1e5aI/MiqQn6mExmGd9R0vdwjbpFso=",
   "Source": "MaxsGameCorner",
   "BasePath": "_content/MaxsGameCorner",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaxsGameCorner.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\audio.js",
+      "SourceId": "MaxsGameCorner",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\",
+      "BasePath": "_content/MaxsGameCorner",
+      "RelativePath": "audio.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audio.js"
     },
     {
       "Identity": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -1725,6 +1744,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icons\\ticIcon.png"
+    },
+    {
+      "Identity": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\lose.wav",
+      "SourceId": "MaxsGameCorner",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\",
+      "BasePath": "_content/MaxsGameCorner",
+      "RelativePath": "sounds/lose.wav",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sounds\\lose.wav"
+    },
+    {
+      "Identity": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\sounds\\win.wav",
+      "SourceId": "MaxsGameCorner",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\wwwroot\\",
+      "BasePath": "_content/MaxsGameCorner",
+      "RelativePath": "sounds/win.wav",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sounds\\win.wav"
     }
   ]
 }

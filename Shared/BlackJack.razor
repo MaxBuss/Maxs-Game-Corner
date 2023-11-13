@@ -1,6 +1,8 @@
 @page "/blackJack"
 @using MaxsGameCorner.Shared
 @using System.Linq
+@inject IJSRuntime JSRuntime
+
 
 <h1>Black Jack</h1>
 
@@ -100,6 +102,7 @@ else
         </li>
     </ul>
 </div>
+
 
 
 @code {
@@ -220,30 +223,42 @@ else
         }
         DetermineWinner();
     }
-    private void DetermineWinner()
+    private async void DetermineWinner()
     {
         int playerValue = GetHandValue(playerHand);
         int dealerValue = GetHandValue(dealerHand);
         if (playerValue > 21)
         {
             houseWon = true;
+            await PlaySound("sounds/lose.wav");
+
         }
         else if (dealerValue > 21)
         {
             playerWon = true;
+            await PlaySound("sounds/win.wav");
+
         }
         else if (playerValue > dealerValue)
         {
             playerWon = true;
+            await PlaySound("sounds/win.wav");
         }
         else if (dealerValue > playerValue)
         {
             houseWon = true;
+            await PlaySound("sounds/lose.wav");
         }
         else
         {
             tie = true;
         }
+    }
+
+    private async Task PlaySound(string location)
+    {
+        await JSRuntime.InvokeVoidAsync("playAudio", location);
+        StateHasChanged();
     }
 
     private enum Suit
