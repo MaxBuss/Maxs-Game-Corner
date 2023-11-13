@@ -1,0 +1,285 @@
+@page "/blackJack"
+@using MaxsGameCorner.Shared
+@using System.Linq
+
+<h1>Black Jack</h1>
+
+@if (playerWon)
+{
+    <h2 class='win-lose'>Player has won the hand!</h2>
+}
+else if (houseWon)
+{
+    <h2 class='win-lose'>House has won the hand.</h2>
+}
+else if (tie)
+{
+    <h2 class='win-lose'>It is a tie.</h2>
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <h3>Dealer's Hand</h3>
+        <div class="card-deck">
+            @foreach (var card in dealerHand)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@card.Rank.ToString() of @card.Suit.ToString()</h5>
+                        <img class='single-card'
+                            src="img/deck/@(card.Rank.ToString().ToLower())_of_@(card.Suit.ToString().ToLower()).png" />
+                    </div>
+                </div>
+            }
+        </div>
+        <h3>Dealer's Hand Value: @GetHandValue(dealerHand)</h3>
+    </div>
+    <div class="col-md-6">
+        <h3>Player's Hand</h3>
+        <div class="card-deck">
+            @foreach (var card in playerHand)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@card.Rank.ToString() of @card.Suit.ToString()</h5>
+                        <img class='single-card'
+                            src="img/deck/@(card.Rank.ToString().ToLower())_of_@(card.Suit.ToString().ToLower()).png" />
+                    </div>
+                </div>
+            }
+        </div>
+        <h3>Player's Hand Value: @GetHandValue(playerHand)</h3>
+    </div>
+</div>
+
+@if (playerTurn)
+{
+    <button class="btn btn-primary" @onclick="Hit">Hit</button>
+    <button class="btn btn-primary" @onclick="Stand">Stand</button>
+}
+else
+{
+    <button class="btn btn-primary" @onclick="DealCards">Deal</button>
+}
+
+
+<div class='rules'>
+
+    <h2 class='howToPlay'>How To Play</h2>
+    <ul>
+        <li>
+            <h5>To Start the Game</h5>
+            <p>
+                The game is automatically started and will deal two cards to the dealer and the player. Once the game is
+                over and a winner has been declared, click on the Deal button to start a new hand.</p>
+        </li>
+        <li>
+            <h5>To Play the Game</h5>
+            <p>
+                The Player has the choice to either Hit or to Stand.</p>
+        </li>
+        <li>
+            <h5>Object of the Game</h5>
+            <p>
+                Each participant attempts to beat the dealer by getting a count as close to 21 as possible, without
+                going over 21.</p>
+        </li>
+        <li>
+            <h5>Card Values/scoring</h5>
+            <p>It is up to each individual player if an ace is worth 1 or 11. Face cards are 10 and any other card is
+                its pip value.</p>
+        </li>
+        <li>
+            <h5>Hitting</h5>
+            <p>When the player wishes to get another card for their current hand, click the hit button.</p>
+        </li>
+        <li>
+            <h5>Standing</h5>
+            <p>If the player is happy with the current cards in their hand, they can click the stand button and this
+                will make the dealer draw cards until the dealer wins, loses, or there is a tie.</p>
+        </li>
+    </ul>
+</div>
+
+
+@code {
+    private List<Card> deck;
+    private List<Card> playerHand;
+    private List<Card> dealerHand;
+    private bool playerTurn;
+
+    private bool playerWon = false;
+    private bool houseWon = false;
+
+    private bool tie = false;
+
+    protected override void OnInitialized()
+    {
+        deck = CreateDeck();
+        ShuffleDeck(deck);
+        playerHand = new List<Card>();
+        dealerHand = new List<Card>();
+        playerTurn = true;
+        DealCards();
+    }
+
+    private List<Card> CreateDeck()
+    {
+        List<Card> deck = new List<Card>();
+        foreach (Suit suit in Enum.GetValues(typeof(Suit)))
+        {
+            foreach (Rank rank in Enum.GetValues(typeof(Rank)))
+            {
+                deck.Add(new Card(rank, suit));
+            }
+        }
+        return deck;
+    }
+
+    private void ShuffleDeck(List<Card> deck)
+    {
+        Random random = new Random();
+        for (int i = 0; i < deck.Count; i++)
+        {
+            int j = random.Next(i, deck.Count);
+            Card temp = deck[i];
+            deck[i] = deck[j];
+            deck[j] = temp;
+        }
+    }
+
+    private void DealCards()
+    {
+        playerWon = false;
+        houseWon = false;
+        tie = false;
+        deck = CreateDeck();
+        ShuffleDeck(deck);
+        playerHand = new List<Card>();
+        dealerHand = new List<Card>();
+        playerHand.Add(deck[0]);
+        dealerHand.Add(deck[1]);
+        playerHand.Add(deck[2]);
+        dealerHand.Add(deck[3]);
+        deck.RemoveRange(0, 4);
+        playerTurn = true;
+    }
+
+    private int GetHandValue(List<Card> hand)
+    {
+        int value = 0;
+        int aces = 0;
+        foreach (Card card in hand)
+        {
+            if (card.Rank == Rank.Ace)
+            {
+                aces++;
+            }
+            else if (card.Rank == Rank.Jack || card.Rank == Rank.Queen || card.Rank == Rank.King)
+            {
+                value += 10;
+            }
+            else
+            {
+                value += (int)card.Rank;
+            }
+        }
+        for (int i = 0; i < aces; i++)
+        {
+            if (value + 11 > 21)
+            {
+                value += 1;
+            }
+            else
+            {
+                value += 11;
+            }
+        }
+        return value;
+    }
+
+    private void Hit()
+    {
+        playerHand.Add(deck[0]);
+        deck.RemoveAt(0);
+        if (GetHandValue(playerHand) > 21)
+        {
+            playerTurn = false;
+            DetermineWinner();
+        }
+
+    }
+
+    private void Stand()
+    {
+        playerTurn = false;
+        while (GetHandValue(dealerHand) < 17)
+        {
+            dealerHand.Add(deck[0]);
+            deck.RemoveAt(0);
+        }
+        DetermineWinner();
+    }
+    private void DetermineWinner()
+    {
+        int playerValue = GetHandValue(playerHand);
+        int dealerValue = GetHandValue(dealerHand);
+        if (playerValue > 21)
+        {
+            houseWon = true;
+        }
+        else if (dealerValue > 21)
+        {
+            playerWon = true;
+        }
+        else if (playerValue > dealerValue)
+        {
+            playerWon = true;
+        }
+        else if (dealerValue > playerValue)
+        {
+            houseWon = true;
+        }
+        else
+        {
+            tie = true;
+        }
+    }
+
+    private enum Suit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
+
+    private enum Rank
+    {
+        Ace = 1,
+        Two = 2,
+        Three = 3,
+        Four = 4,
+        Five = 5,
+        Six = 6,
+        Seven = 7,
+        Eight = 8,
+        Nine = 9,
+        Ten = 10,
+        Jack = 10,
+        Queen = 10,
+        King = 10
+    }
+
+    private class Card
+    {
+        public Rank Rank { get; set; }
+        public Suit Suit { get; set; }
+
+        public Card(Rank rank, Suit suit)
+        {
+            Rank = rank;
+            Suit = suit;
+        }
+    }
+}

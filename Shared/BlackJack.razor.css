@@ -1,0 +1,36 @@
+.single-card {
+  width: 80px !important;
+}
+/* Image */
+.page .card img {
+  padding-left: 20px;
+  position: relative;
+  top: -41px;
+  left: 136px;
+}
+
+/* Card body */
+.page .card .card-body {
+  padding-bottom: 0px;
+  margin-bottom: -34px;
+}
+
+.page main .content h1 {
+  padding-bottom: 90px;
+}
+
+.win-lose {
+  color: red;
+}
+
+.rules {
+  padding-left: 0px;
+  margin-right: 200px;
+  text-align: left;
+  column-count: 1;
+}
+
+/* Heading */
+.howToPlay {
+  padding-top: 50px;
+}
