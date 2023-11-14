@@ -2,7 +2,7 @@
 
 # Description
 Welcome to Max's Game Corner. This project is for practice within the Blazor server environment to get familiar with Blazor and C#.
-There are currently three games to be played, Connect Four, Tic-Tac-Toe, Simon says and Black Jack.
+There are currently Four games to be played, Connect Four, Tic-Tac-Toe, Simon Says and Black Jack.
 These are all accessible from the left navigation menu or on the homepage by clicking the corresponding game.
 
 # To run locally
