@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Jw3ikFWZiFiuipMmarcNXvnvqGLs9z4sq+T8K8DAUftT679/eRCiSk7+5H6NQjczWeWMwwWCmfSXTR+hSGC/ZQ==",
+  "dgSpecHash": "7AJHFedX8GjDAcjG+toO6V+CMfv/VS9lEmdnR4Mh8UEe3GKhcMysVUbzvzb+sVBkXxi5qDhJuZXnlk4O1T2aww==",
   "success": true,
-  "projectFilePath": "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj",
+  "projectFilePath": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.extensions.localization\\7.0.13\\microsoft.extensions.localization.7.0.13.nupkg.sha512",
+    "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\7.0.13\\microsoft.extensions.localization.abstractions.7.0.13.nupkg.sha512",
+    "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Max.Buss\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
     "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
     "C:\\Users\\Max.Buss\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",

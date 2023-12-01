@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj": {}
+    "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj": {}
   },
   "projects": {
-    "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj": {
+    "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj",
+        "projectUniqueName": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj",
         "projectName": "MaxsGameCorner",
-        "projectPath": "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj",
+        "projectPath": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\MaxsGameCorner.csproj",
         "packagesPath": "C:\\Users\\Max.Buss\\.nuget\\packages\\",
-        "outputPath": "c:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\obj\\",
+        "outputPath": "C:\\Learning-Enviroment\\Blazor\\MaxsGameCorner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Max.Buss\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

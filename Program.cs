@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddLocalization();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<MaxsGameCorner.Shared.GameState>();
 builder.Services.AddSingleton<MaxsGameCorner.Shared.TicGameState>();

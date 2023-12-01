@@ -36,3 +36,13 @@ C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\MaxsGameCorner.sou
 C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
 C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\scopedcss\Shared\SimonSays.razor.rz.scp.css
 C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\scopedcss\Shared\BlackJack.razor.rz.scp.css
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\MaxsGameCorner.csproj.AssemblyReference.cache
+c:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\MaxsGameCorner.csproj.CopyComplete
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\MaxsGameCorner.Resources.BlackJack.resources
+C:\Learning-Enviroment\Blazor\MaxsGameCorner\obj\Debug\net6.0\MaxsGameCorner.csproj.GenerateResource.cache

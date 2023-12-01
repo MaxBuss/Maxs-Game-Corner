@@ -2,6 +2,7 @@
 @inject MaxsGameCorner.Shared.GameState State
 @using System.Drawing
 @inject IJSRuntime JSRuntime
+@inject IStringLocalizer<BlackJack> Strings
 
 <HeadContent>
     <style>
@@ -13,7 +14,7 @@
     </style>
 </HeadContent>
 
-<h1 class='connectFour'>Connect Four</h1>
+<h1 class='connectFour'>@Strings["Connect Four"]</h1>
 
 <nav>
     <span title="Click to play a piece" @onclick="() => PlayPiece(0)">🔽</span>
